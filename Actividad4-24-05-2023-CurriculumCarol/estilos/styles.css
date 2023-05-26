@@ -1,0 +1,84 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D6C1E2;
+}
+header{
+    background-image: url("../imagenes/fondo.jpg") ;
+    height: 400px;
+    
+}
+#imagenPerfil{
+    width: 200px;
+    height: auto;
+    margin: 40px 40px 0 40px;
+    border: 2px solid #000;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li a{
+    padding: 10px;
+    color: #D1A7E9;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+h1, h2{
+    text-transform: uppercase;
+    background-color: #794497;
+    color: white;
+    letter-spacing: 3px;
+}
+p{
+    margin: 5px 0 5px 0;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+}
+
+#vacio{
+    margin: 150px;
+}
+
+li span{
+    font-weight: bold;
+}
+
+.sinViñeta li{
+    list-style-type: none;
+    display: flex;
+    margin: 0 0 0px;
+    
+}
+
+footer{
+    background-color:#C3B3CC;
+    text-align: center;
+    align-items: center;
+}
+
+footer img{
+    margin: 10px;
+    width: 20px;
+}
+/*estilos de sobre mi*/
+#imagenHobbies{
+    float: left;
+    margin-right: 15px;
+    width: 300px;
+    height: auto;
+    
+}
+
+.texto{
+    display: inline-block;
+    font-size: 25px;
+    text-align: justify;
+}

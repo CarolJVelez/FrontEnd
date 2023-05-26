@@ -1,0 +1,57 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E6E6E6;
+}
+header{
+    text-align: center;
+    font-weight: bold;
+    
+}
+main{
+    background: white;
+}
+
+header img{
+    width: 80px;
+    height: auto;
+}
+h1{
+    text-transform: uppercase;
+    color: #005677;
+    background-color: #C4C4C4;
+    letter-spacing: 5px;
+    font-size: 25px;
+    padding: 0.5%;
+    margin-bottom: 0px;
+}
+#vacio{
+    height: 100px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #005677;
+    background-color: #C4C4C4;
+    font-size: 17px;
+    letter-spacing: 3px;
+    padding: 0.2%;
+}
+
+li span{
+    font-weight: bold;
+}
+
+.sinViñeta li{
+    list-style-type: none;
+    display: flex;
+    
+}
+footer {
+    background: #005677;
+}
+#imagenesFooter{
+    text-align: center;
+}
+footer p {
+    display: inline-block;
+}
