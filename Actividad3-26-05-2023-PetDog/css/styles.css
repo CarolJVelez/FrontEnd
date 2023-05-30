@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.headerinicial{
+    background-color: black;
+    /*display: flow-root;*/
+    color: white;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
