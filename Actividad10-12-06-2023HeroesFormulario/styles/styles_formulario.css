@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header p{
+    background-color: #1CD1B0;
+    padding: 5px 0 5px 30px;
+}
+
+.logoTienda{
+    background-color: #00669F;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navegador{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegador li{
+    display: inline;
+    padding-right: 5px;
+}
+
+.navegador a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*formulario*/
+main{
+    display: flex;
+
+}
+.FormularioCompleto{
+    width: 800px;
+    margin-bottom: 30px;
+    background-color: #00669F;
+    justify-content: center;
+
+}
+
+
+footer{
+    margin-top: 120px;
+    display: flex;
+    position: relative;
+    background-color: #00669F;
+}
+
+footer p{
+    width: 100%;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+footer img{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    width: 100px;
+}
+
+
+@media (min-width: 350px){
+    
+    footer div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    footer div img{
+        position: static;
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 450px) {
+        main .card{
+            width: 60%;
+        }
+  }
+
+@media (min-width: 800px) {
+        main .card{
+            width: 40%;
+        }
+
+        footer div img{
+            position: absolute;
+        }
+  }
+
+@media (min-width: 1000px) {
+    main section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        main .card{
+            width: 30%;
+        }
+
+}
+
+@media (min-width: 1450px) {
+        main .card{
+            width: 20%;
+        }
+
+        .card .personaje{
+            top: 23%;
+            left: 31%;
+        }
+
+}
